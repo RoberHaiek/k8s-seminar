@@ -19,7 +19,7 @@ spec:
       - name: bearapp
         image: supergiantkir/animals:bear
         volumeMounts:
-        - mountPath: /frontend
+        - mountPath: /tmp/data
           name: volume1
       volumes:
       - name: volume1
