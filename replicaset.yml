@@ -21,5 +21,5 @@ spec:
       volumes:
       - name: volume1
         hostPath:
-          path: /data
+          path: /tmp/data
           type: DirectoryOrCreate
