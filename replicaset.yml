@@ -18,6 +18,9 @@ spec:
       containers:
       - name: bearapp
         image: supergiantkir/animals:bear
+        volumeMounts:
+        - mountPath: /frontend
+          name: volume1
       volumes:
       - name: volume1
         hostPath:
