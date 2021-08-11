@@ -22,6 +22,6 @@ spec:
    image: supergiantkir/animals:bear
    ports:
    - containerPort: 8081
-volumes:
+  volumes:
   - name: app-storage
     emptyDir: {}
