@@ -10,11 +10,11 @@ metadata:
   creationTimestamp: "2021-08-15T12:51:31Z"
   generation: 2
   labels:
-    app: canaryBear
-  name: canaryBear
+    app: canarybear
+  name: canarybear
   namespace: default
   resourceVersion: "73992"
-  selfLink: /apis/apps/v1/namespaces/default/deployments/canaryBear
+  selfLink: /apis/apps/v1/namespaces/default/deployments/canarybear
   uid: 59ec29fd-3a26-4baf-a96d-ebce1e678788
 spec:
   progressDeadlineSeconds: 600
@@ -22,7 +22,7 @@ spec:
   revisionHistoryLimit: 10
   selector:
     matchLabels:
-      app: canaryBear
+      app: canarybear
   strategy:
     rollingUpdate:
       maxSurge: 25%
@@ -32,7 +32,7 @@ spec:
     metadata:
       creationTimestamp: null
       labels:
-        app: canaryBear
+        app: canarybear
     spec:
       containers:
       - image: supergiantkir/animals:bear
