@@ -10,11 +10,11 @@ metadata:
   creationTimestamp: "2021-08-15T12:51:31Z"
   generation: 2
   labels:
-    app: canaryMoose
-  name: canaryMoose
+    app: canarymoose
+  name: canarymoose
   namespace: default
   resourceVersion: "73992"
-  selfLink: /apis/apps/v1/namespaces/default/deployments/canaryMoose
+  selfLink: /apis/apps/v1/namespaces/default/deployments/canarymoose
   uid: 59ec29fd-3a26-4baf-a96d-ebce1e678788
 spec:
   progressDeadlineSeconds: 600
@@ -22,7 +22,7 @@ spec:
   revisionHistoryLimit: 10
   selector:
     matchLabels:
-      app: canaryMoose
+      app: canarymoose
   strategy:
     rollingUpdate:
       maxSurge: 25%
@@ -37,7 +37,7 @@ spec:
       containers:
       - image: supergiantkir/animals:moose
         imagePullPolicy: Always
-        name: canaryMoose
+        name: canarymoose
         resources: {}
         terminationMessagePath: /dev/termination-log
         terminationMessagePolicy: File
