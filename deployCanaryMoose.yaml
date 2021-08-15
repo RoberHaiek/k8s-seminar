@@ -14,7 +14,7 @@ metadata:
   name: canaryMoose
   namespace: default
   resourceVersion: "73992"
-  selfLink: /apis/apps/v1/namespaces/default/deployments/canary
+  selfLink: /apis/apps/v1/namespaces/default/deployments/canaryMoose
   uid: 59ec29fd-3a26-4baf-a96d-ebce1e678788
 spec:
   progressDeadlineSeconds: 600
